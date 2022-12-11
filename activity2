@@ -1,0 +1,11 @@
+p = int(input("Enter P: "))
+q = int(input("Enter Q: "))
+print("------------------")
+print("Conjunction  : ",p&q)
+print("Disjunction  : ",p|q)
+print("XOR          : ",p^q)
+if p==1 and q ==0:
+        print("Conditional  :  0")
+else:
+    print("Conditional  :  1")
+print("Biconditional: ", int(not (p^q)))
